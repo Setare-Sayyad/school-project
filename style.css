@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("./assets/fonts/ttf/Satoshi-Bold.ttf") format("ttf"),
+    url("./assets/fonts/woff/Satoshi-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("./assets/fonts/ttf/Satoshi-Light.ttf") format("ttf"),
+    url("./assets/fonts/woff/Satoshi-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("./assets/fonts/ttf/Satoshi-Medium.ttf") format("ttf"),
+    url("./assets/fonts/woff/Satoshi-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Satoshi", sans-serif;
+  src: url("./assets/fonts/ttf/Satoshi-Regular.ttf") format("ttf"),
+    url("./assets/fonts/woff/Satoshi-Regular.woff") format("woff");
+  font-weight: 400;
+}
+* {
+  font-family: "Satoshi", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #8b54ff;
+  border-bottom: 2px solid #8b54ff;
+}
+.input-field {
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #8b54ff;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
+  display: block;
+  justify-items: center;
+  height: 28px;
+}
+form {
+  width: 550px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.select-field {
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #8b54ff;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
+  display: inline-block;
+  justify-items: center;
+  width: 220px;
+  height: 55px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.half {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+#submit {
+  color: white;
+  border: 2px solid #8b54ff;
+  border-radius: 25px;
+  background-color: #8b54ff;
+  width: 220px;
+  height: 55px;
+  font-size: medium;
+}
+#submit::after {
+  color: #8b54ff;
+  background-color: white;
+}
+h5 {
+  color: #8b54ff;
+}
