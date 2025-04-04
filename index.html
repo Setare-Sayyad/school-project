@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <script src="https://unpkg.com/tailwindcss@latest"></script> -->
+    <title>JOB-application</title>
+  </head>
+  <body>
+    <div class="container">
+      <h5 id="t1">Delivery job application form.</h5>
+      <h5 id="t2">© Copyright delivery—app 2022.</h5>
+    </div>
+    <form>
+      <label for="name">Full name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        autocomplete="name"
+        class="input-field"
+        required
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        autocomplete="email"
+        class="input-field"
+        required
+      />
+
+      <label for="phone">Phone number</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        autocomplete="tel"
+        class="input-field"
+        required
+      />
+      <div class="row">
+        <div class="half">
+          <label for="workplace">Workplace type</label>
+          <select
+            id="workplace"
+            name="workplace"
+            autocomplete="organization"
+            class="select-field"
+          >
+            <option value="on-site">On-site</option>
+            <option value="hybrid">Hybrid</option>
+            <option value="remote">Remote</option>
+          </select>
+        </div>
+        <div class="half">
+          <label for="location">Job location</label>
+          <input
+            id="location"
+            name="location"
+            placeholder="Enter job location"
+            type="text"
+            autocomplete="address-level1"
+            class="input-field"
+          />
+        </div>
+      </div>
+
+      <label for="employment">Employment type</label>
+      <select id="employment" name="employment" class="select-field">
+        <option value="full-time">Full time</option>
+        <option value="part-time">Part time</option>
+        <option value="contract">Contract</option>
+      </select>
+      <div class="row">
+        <div class="half">
+          <input type="submit" value="send application" id="submit" />
+        </div>
+        <div class="half">
+          <h5>
+            By clicking Send application, you agree to our User Agreement,
+            Privacy Policy, and Cookie Policy.
+          </h5>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
