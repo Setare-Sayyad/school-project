@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .select-field,
+  .input-field {
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+  }
+}
