@@ -4,6 +4,4 @@ document.getElementById("applyBtn").addEventListener("click", function () {
 
   landingSection.style.display = "none";
   formSection.style.display = "block";
-
-  formSection.scrollIntoView({ behavior: "smooth" });
 });
