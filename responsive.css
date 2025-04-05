@@ -11,4 +11,23 @@
   form {
     width: 90%;
   }
+  form {
+    width: 100%;
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 0 16px;
+  }
+  .navbar {
+    width: 400px;
+    align-items: center;
+  }
+  .hero-image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-text {
+    display: inline-block;
+  }
 }
